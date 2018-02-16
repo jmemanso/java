@@ -1,2 +1,7 @@
 
 Read more: http://javarevisited.blogspot.com/2016/08/top-10-maven-plugins-every-java-developer-know.html#ixzz57GZUnJDL
+
+In the last couple of years, Maven has become the de-facto build tool for Java applications. Though there are challenges exists from tools like Gradle, but I think the dominance of Maven will help it to win the final battle. When I started with Maven, I was happy with just dependency management but then I come to know about maven plugins which let you customize your build up to the level you can do with ANT. These plugins provide true power to Maven to automate most of the build related task e.g. compilation, testing, packaging, deployment, and even committing the source code into the remote source repository. Many Java developers who use Maven daily are usually not aware of these essential Maven plugins mostly because  Maven just works, or someone has already done the hard work for them.
+
+Maven uses conventions over configuration which means even if you don't know much about Maven you can use it to build your project and manage dependency. In order to bridge that gap, I am going to share 10 essential Maven plugins for Java developers. Knowing these plugins and what the do will help you to understand how Maven works in general and let you better control your build process.
+
