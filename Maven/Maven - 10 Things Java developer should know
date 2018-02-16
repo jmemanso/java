@@ -1,0 +1,9 @@
+
+Read more: http://javarevisited.blogspot.com/2017/06/10-maven-tips-java-developer-should-know.html#ixzz57GeQ3HbQ
+
+The Apache Maven is an essential tool for Java developers. It makes their life easy by allowing them to create Java project faster by using a standard directory structure. It also helps them to download project dependency automatically. Not only that, Maven also download transitive dependencies which relieve Java developers from the big headache of keep check of different versions of dependent libraries. For example, if your application is dependent on Spring framework but Spring is dependent on Log4j then you also need to download the correct version of Log4j JAR files for Spring MVC framework, Maven does this automatically for you. Maven also allows you to build projects, upload artifacts to the central or local nexus repository and deploy the release in your various test environments automatically. 
+
+In short,   good knowledge of Maven is must for any professional Java developers. In this article, I'll share some practical tips and facts about Maven tool which every Java developer should know.
+
+These tips and knowledge will help you to make most of the Maven and simplify your day by day development task e.g compilation of project, automatic unit testing of builds, deployment, regression testing, and many other tasks.
+
