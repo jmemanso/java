@@ -1,0 +1,14 @@
+#Top 20 Spring REST Interview Questions Answers for Java Programmers
+
+http://javarevisited.blogspot.com.es/2018/02/top-20-spring-rest-interview-questions-answers-java.html#ixzz56tvEUAJQ
+
+Hello guys, I have been sharing some REST with Spring tutorials from last a couple of weeks and today, I am going to share some of the frequently asked Spring and REST interview questions to Java developers applying for Web developer roles. Since Spring Framework is the most popular and the standard framework for developing Java web application and RESTful Web Services, a good knowledge of Spring core and Spring MVC is expected from any senior Java developer, but if the job description mention about REST and Web Services, you also need to be aware of how to develop RESTful Web Services using Spring Framework. From Spring 3.1, the framework has been enhanced a lot to support many features needed for RESTFul API out-of-the-box e..g HTTPMessageConverter can convert your HTTP response to JSON or XML by just detecting relevant library in classpath e.g. Jackson and JAXB.
+
+Spring also provides customized annotations for RESTful Web Services e.g. @RestController which can make your Controller REST aware, so that you don't need to do common stuff required by every single REST API e.g. converting the response to JSON.
+
+A good knowledge of Spring Security is also mandatory for developing and security RESTful Web Services in the real world. Since you cannot make life a non-trivial REST API without security, a good knowledge of security basics e.g. HTTP basic authentication, digest authentication, OAuth, and JWT is very important.
+
+Btw, If you are not familiar with that concept, I suggest you go through REST with Spring and Learn Spring Security Course to gain some experience before your Interview. These two courses are specially designed to provide you some real-world experience to boost both your knowledge and experience with Spring MVC, REST, and Spring Security.
+
+
+Read more: http://javarevisited.blogspot.com/2018/02/top-20-spring-rest-interview-questions-answers-java.html#ixzz57GYR50us
