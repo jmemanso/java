@@ -9,3 +9,4 @@ This article is in continuation of my post Difference between Vector and ArrayLi
 
 On related not from Java 5 onwards, ArrayList class supports Generics in Java, which means you ca convert an ArrayList of String into an String array or ArrayList of Integer into an Integer Array. The generic provide type safety and remove casting during runtime.
 
+ 
