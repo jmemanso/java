@@ -1,0 +1,13 @@
+Read more: http://javarevisited.blogspot.com/2015/03/20-examples-of-date-and-time-api-from-Java8.html#ixzz57Gcon1JF
+
+Along with lambda expressions, streams, and several minor goodies, Java 8 has also introduced brand new Date and Time API, and in this tutorial, we will learn how to use Java 8 Date Time API with simple how to do task examples. Java's handling of Date, Calendar and Time is long been criticized by the community, which is not helped by Java's decision of making java.util.Date mutable and SimpleDateFormat not thread-safe. Seems, Java has realized a need for better date and time support, which is good for a community which already used to of Joda Date and Time API. One of the many good things about new Date and Time API is that now it defines principle date-time concepts e.g. instants, duration, dates, times, timezones and periods. It also follows good thing from Joda library about keeping human and machine interpretation of date time separated. They are also based on the ISO Calendar system and unlike their predecessor, class in java.time packages are both immutable and thread-safe. New date and time API is located inside java.time package and some of the key classes are following :
+
+Instant - It represents a timestamp
+LocalDate - a date without time e.g. 2014-01-14. It can be used to store birthday, anniversary, date of joining etc.
+LocalTime - represents time without a date
+LocalDateTime - is used to combine date and time, but still without any offset or time-zone
+ZonedDateTime - a complete date-time with time-zone and resolved offset from UTC/Greenwich
+
+They are also coming with better time zone support with ZoneOffSet and ZoneId. Parsing and Formatting of Dates are also revamped with new DateTimeFormatter class. By the way, just remember that I wrote this article almost a year ago when Java was about to launch, so you will find examples have dates of the previous year. When you will run those sample, it will surely return correct values.
+
+Read more: http://javarevisited.blogspot.com/2015/03/20-examples-of-date-and-time-api-from-Java8.html#ixzz57Gcon1JF
